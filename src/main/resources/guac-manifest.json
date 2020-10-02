@@ -1,0 +1,12 @@
+{
+
+    "guacamoleVersion" : "1.2.0",
+
+    "name"      : "WCAS Authentication Extension",
+    "namespace" : "guac-wcas",
+
+    "authProviders" : [
+        "top.imwonder.guacamole.auth.WCASAuthenticationProvider"
+    ]
+
+}
