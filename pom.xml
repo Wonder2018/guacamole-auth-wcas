@@ -8,7 +8,7 @@
     <groupId>top.imwonder.guacamole</groupId>
     <artifactId>guacamole-auth-wcas</artifactId>
     <packaging>jar</packaging>
-    <version>1.2.0</version>
+    <version>1.2.0-alpha1</version>
     <name>guacamole-auth-cas</name>
     <url>http://www.imwonder.top/</url>
 

@@ -54,5 +54,77 @@ public class WCASGuacamoleProperties {
         }
 
     };
+    
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_ID = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-id";
+        }
+
+    };
+
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_USERNAME = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-username";
+        }
+
+    };
+
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_PROTOCOL = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-protocol";
+        }
+
+    };
+
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_HOSTNAME = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-hostname";
+        }
+
+    };
+    
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_PORT = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-port";
+        }
+
+    };
+    
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_PASSWORD = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-password";
+        }
+
+    };
+    
+    public static final StringGuacamoleProperty WCAS_DATABASE_COLUMN_DESCRIPTION = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-column-description";
+        }
+
+    };
+    
+    public static final StringGuacamoleProperty WCAS_DATABASE_TABLE_NAME = new StringGuacamoleProperty() {
+
+        @Override
+        public String getName() {
+            return "wcas-database-table-name";
+        }
+
+    };
 
 }
