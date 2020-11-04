@@ -14,7 +14,7 @@
 
 ### 2. 配置插件
 
-安装玩插件后需要进行一些简单的配置才能开始使用。这些配置都记录在 **\$GUACAMOLE_HOME/guacamole.properties** 中。
+安装完插件后需要进行一些简单的配置才能开始使用。这些配置都记录在 **\$GUACAMOLE_HOME/guacamole.properties** 中。
 
 首先需要配置的属性是 `auth-provider`，它指定了 guacmole 采用的认证方式，这里应该设置为 **top.imwonder.guacamole.auth.WCASAuthenticationProvider**，接下来是一些插件需要的属性。这里以表格的形式展示出来，它们之中许多都是必须要配置的，也有一些不是必须的。
 
