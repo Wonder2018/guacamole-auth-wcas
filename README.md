@@ -10,7 +10,7 @@
 
 1. 将下载到的插件复制到 **\$GUACAMOLE_HOME/extensions/**
 2. 由于本项目是 [guacamole-auth-cas](https://github.com/apache/guacamole-client/tree/master/extensions/guacamole-auth-cas) 的扩展，还需要从 [Guacamole 发行网站](http://guacamole.apache.org/releases/) 下载 `guacamole-auth-cas` 并将文件名为 `guacamole-auth-cas-${version}.jar` 的文件复制到 **\$GUACAMOLE_HOME/lib/** 以及 **\$GUACAMOLE_HOME/extensions/**
-3. 将数据库驱动复制到 **\$GUACAMOLE_HOME/extensions/**
+3. 将数据库驱动复制到 **\$GUACAMOLE_HOME/lib/**
 
 ### 2. 配置插件
 
